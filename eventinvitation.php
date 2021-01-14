@@ -25,6 +25,27 @@ function eventinvitation_civicrm_searchTasks($objectType, &$tasks)
 function eventinvitation_civicrm_config(&$config)
 {
     _eventinvitation_civix_civicrm_config($config);
+
+    $dispatcher = \Civi::dispatcher();
+
+    // EVENTMESSAGES.TOKENS (first remove, then add to avoid duplicate registrations)
+    $dispatcher->removeListener(
+        'civi.eventmessages.tokenlist',
+        ['CRM_Eventinvitation_EventInvitationCode', 'listTokens']
+    );
+    $dispatcher->addListener(
+        'civi.eventmessages.tokenlist',
+        ['CRM_Eventinvitation_EventInvitationCode', 'listTokens']
+    );
+
+    $dispatcher->removeListener(
+        'civi.eventmessages.tokens',
+        ['CRM_Eventinvitation_EventInvitationCode', 'addTokens']
+    );
+    $dispatcher->addListener(
+        'civi.eventmessages.tokens',
+        ['CRM_Eventinvitation_EventInvitationCode', 'addTokens']
+    );
 }
 
 /**

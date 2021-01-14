@@ -27,11 +27,6 @@ class CRM_Eventinvitation_Form_Task_ContactSearch extends CRM_Contact_Form_Task
     const SETTINGS_KEY = 'eventinvitation_form_task_contactsearch_settings';
     const TEMPLATE_SETTINGS_KEY = 'template_default';
 
-    // TODO: Find a better (more central) place for this constant!
-    const TEMPLATE_CODE_TOKEN = 'qr_event_invite_code';
-    const TEMPLATE_CODE_TOKEN_QR_DATA = 'qr_event_invite_code_data';
-    const TEMPLATE_CODE_TOKEN_QR_IMG = 'qr_event_invite_code_img';
-
     public function buildQuickForm()
     {
 
@@ -211,7 +206,7 @@ class CRM_Eventinvitation_Form_Task_ContactSearch extends CRM_Contact_Form_Task
         );
 
         // check if any of the tokens are present
-        $tokens = [self::TEMPLATE_CODE_TOKEN, self::TEMPLATE_CODE_TOKEN_QR_DATA, self::TEMPLATE_CODE_TOKEN_QR_IMG];
+        $tokens = [CRM_Eventinvitation_EventInvitationCode::TEMPLATE_CODE_TOKEN, CRM_Eventinvitation_EventInvitationCode::TEMPLATE_CODE_TOKEN_QR_DATA, CRM_Eventinvitation_EventInvitationCode::TEMPLATE_CODE_TOKEN_QR_IMG];
         foreach ($tokens as $token) {
             $token_string = '{$' . $token . '}';
             foreach (['msg_text', 'msg_html'] as $type) {
