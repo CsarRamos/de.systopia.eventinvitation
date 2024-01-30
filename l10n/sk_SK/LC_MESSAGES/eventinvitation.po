@@ -1,0 +1,226 @@
+# Copyright CiviCRM LLC (c) 2004-2015
+# This file is distributed under the same license as the CiviCRM package.
+# If you contribute heavily to a translation and deem your work copyrightable,
+# make sure you license it to CiviCRM LLC under Academic Free License 3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: de.systopia.eventinvitation\n"
+"POT-Creation-Date: 2021-02-09 18:59+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: CiviCRM Translators <civicrm-translators@lists.civicrm.org>\n"
+"Language: sk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Your Invitation PDFs are ready for download."
+msgstr "Súbory PDF s pozvánkou sú pripravené na stiahnutie."
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Download"
+msgstr "Stiahnuť"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Back to Search"
+msgstr "Späť na vyhľadávanie"
+
+#: CRM/Eventinvitation/Form/Download.php
+#: CRM/Eventinvitation/Queue/Runner/PdfGenerator.php
+msgid "Invitation-%1.pdf"
+msgstr "Pozvánka-%1.pdf"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Invitations.zip"
+msgstr "Pozvánky.zip"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "ZIP file couldn't be generated. Contact the author."
+msgstr "Súbor ZIP sa nepodarilo vygenerovať. Kontaktujte autora."
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Error downloading PDF files: %1"
+msgstr "Chyba pri sťahovaní súborov PDF: %1"
+
+#: CRM/Eventinvitation/Form/Download.php
+msgid "Download Error"
+msgstr "Chyba sťahovania"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Invalid or expired invite code"
+msgstr "Pozývací kód je neplatný alebo mu vypršala platnosť"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Registration for '%1'"
+msgstr "Registrácia pre '%1'"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Congratulations! You have successfully registered for the event \"%1\"!"
+msgstr "Gratulujem! Úspešne ste sa zaregistrovali na udalosť \"%1\"!"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Do you want to register for the event \"%1\"?"
+msgstr "Chcete sa zaregistrovať na udalosť \"%1\"?"
+
+#: CRM/Eventinvitation/Form/Register.php
+msgid "Register"
+msgstr "Registrovať"
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Event Invitation Configuration"
+msgstr "Konfigurácia pozvánky na udalosť"
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Enable custom endpoint"
+msgstr "Povoliť vlastný koncový bod"
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Custom link target URL:"
+msgstr "Cieľová adresa URL vlastného odkazu:"
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Enter a valid web address beginning with 'http://' or 'https://'."
+msgstr ""
+"Zadajte platnú webovú adresu začínajúcu reťazcom „http://“ alebo „https://“."
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "The link must include the placeholder <code>{token}</code>."
+msgstr "Odkaz musí obsahovať zástupný symbol <code>{token}</code>."
+
+#: CRM/Eventinvitation/Form/Settings.php
+msgid "Save"
+msgstr "Uložiť"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Inviting %1 Contacts"
+msgstr "Pozýva sa %1 kontaktov"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Event"
+msgstr "Udalosť"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Generate PDFs instead of sending e-mails."
+msgstr "Namiesto odosielania e-mailov generujte súbory PDF."
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Template"
+msgstr "Šablóna"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "E-mail sender address"
+msgstr "E-mailová adresa odosielateľa"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "Participant role"
+msgstr "Účastnícka rola"
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid "There are contacts that have no e-mail address."
+msgstr "Existujú kontakty, ktoré nemajú žiadnu e-mailovú adresu."
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid ""
+"There are contacts that are participants with a status other than "
+"\"Invited\"."
+msgstr "Existujú kontakty, ktoré sú účastníkmi s iným stavom ako „Pozvaní“."
+
+#: CRM/Eventinvitation/Form/Task/ContactSearch.php
+msgid ""
+"The given template doesn't contain any of the code tokens for the invitation "
+"URL."
+msgstr "Daná šablóna neobsahuje žiadne tokeny kódu pre adresu URL pozvánky."
+
+#: CRM/Eventinvitation/Queue/Runner/Job.php
+msgid "Processing contacts %1 to %2."
+msgstr "Spracúvajú sa kontakty %1 až %2."
+
+#: CRM/Eventinvitation/Queue/Runner/Job.php
+msgid "Registration QR Code"
+msgstr "Registračný QR kód"
+
+#: CRM/Eventinvitation/Queue/Runner/Launcher.php
+msgid "Sending e-mails."
+msgstr "Odosielanie emailov."
+
+#: CRM/Eventinvitation/Queue/Runner/Launcher.php
+msgid "Generating PDFs."
+msgstr "Generovanie súborov PDF."
+
+#: CRM/Eventinvitation/Queue/Runner/PdfGenerator.php
+msgid "PDF Generation Failed"
+msgstr "Generovanie PDF zlyhalo"
+
+#: CRM/Eventinvitation/Upgrader/Base.php
+msgid "Upgrade %1 to revision %2"
+msgstr "Inovujte %1 na revíziu %2"
+
+#: CRM/Eventinvitation/Upgrader.php
+msgid "Invited"
+msgstr "Pozvaný"
+
+#: eventinvitation.php
+msgid "Invite to event"
+msgstr "Pozvať na udalosť"
+
+#: templates/CRM/Eventinvitation/Form/Settings.hlp
+msgid ""
+"Activate using a custom target link. Otherwise the build-in page is used."
+msgstr ""
+"Aktivujte pomocou vlastného cieľového odkazu. V opačnom prípade sa použije "
+"vstavaná stránka."
+
+#: templates/CRM/Eventinvitation/Form/Settings.hlp
+msgid ""
+"You can provide a custom URL to link to another registration endpoint. The "
+"URL must start with 'http://' or 'https://' and contain the the placeholder "
+"<code>&lbrace;token&rbrace;</code>."
+msgstr ""
+"Môžete poskytnúť vlastnú adresu URL na prepojenie s iným koncovým bodom "
+"registrácie. Adresa URL musí začínať reťazcom „http://“ alebo „https://“ a "
+"musí obsahovať zástupný symbol <code>&lbrace;token&rbrace;</code>."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid ""
+"The template chosen here <strong>must</strong> contain the <code>&#123;"
+"$qr_event_invite_code&#125;</code> token. It contains the personalised "
+"invitation link."
+msgstr ""
+"Tu vybratá šablóna <strong>musí</strong> obsahovať token <code>&#123;"
+"$qr_event_invite_code&#125;</code>. Obsahuje personalizovaný odkaz na "
+"pozvánku."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid "Beyond that, the following special tokens are available:"
+msgstr "Okrem toho sú k dispozícii nasledujúce špeciálne žetóny:"
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid ""
+"<code>&#123;$event.xxx&#125;</code>: fields of the given event. For the "
+"available 'xxx' field names, check the API explorer with <code>Event.get</"
+"code>."
+msgstr ""
+"<code>&#123;$event.xxx&#125;</code>: polia danej udalosti. Dostupné názvy "
+"polí „xxx“ nájdete v prieskumníkovi API pomocou <code>Event.get</code>."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid ""
+"<code>&#123;$qr_event_invite_code_data&#125;</code>: QR-Code date to be used "
+"in as <code>src</code> in an html <code>img</code> tag."
+msgstr ""
+"<code>&#123;$qr_event_invite_code_data&#125;</code>: Dátum QR kódu, ktorý sa "
+"má použiť ako <code>src</code> v html značke <code>img</code>."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.hlp
+msgid ""
+"<code>&#123;$qr_event_invite_code_img&#125;</code>: QR-Code <code>img</code> "
+"element."
+msgstr ""
+"<code>&#123;$qr_event_invite_code_img&#125;</code>: prvok QR kódu <code>img</"
+"code>."
+
+#: templates/CRM/Eventinvitation/Form/Task/ContactSearch.tpl
+msgid "Template Help"
+msgstr "Pomocník k šablóne"
